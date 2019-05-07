@@ -69,7 +69,7 @@ $(function () {
 				var mls = (array[0][4]/1000);
 				var ett = hh + mm + ss + mls;
 				//console.log(startTime);
-				wrapper.append("captions[" + obj.line + "] = ['" + stt + "','" + ett + "'];\n");
+				wrapper.append("captions[" + (obj.line - 1) + "] = ['" + stt + "','" + ett + "'];\n");
 			}
 			var result = PF_SRT.parse(text);
 			for (line in result) {
