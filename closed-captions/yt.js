@@ -38,9 +38,11 @@ function addSpans(){
 
 function updateTimerDisplay(){
 	var t = player.getCurrentTime();
-
+	// vibrate for android phones
+	if (t > 10 && t < 12) navigator.vibrate([500]);
+	// pak uit document timestamps.js de hoogte intervallen timestamps in ms (rond getallen af) 
 	var t_ms = Math.floor(t * 1000);
-
+	//verander de hoogte propperty van de soundbar class
 	$('.soundbar').css('height', timestamps[t_ms]);
 
 	t = Math.floor10(t,-1);
