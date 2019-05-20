@@ -5,13 +5,31 @@ Show them when they receive the class 'on'
 Hide them when they receive the class 'off'
 Feel free to adjust the defaults to your needs.
 ********************************************** */
+
+body {
+	background-color: black;
+	height: 100vh;
+	margin: 0;
+}
+
+#closed-captions {
+	align-content: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	z-index: 100;
+	height: 100vh
+}
+
 #closed-captions p {
 	opacity: 0;
 	transition: .05s;
 	position: absolute;
+	color: white;
+	font-size: 2em;
 }
 #closed-captions .on {
-	opacity: 1;
+	opacity: 0.6;
 }
 #closed-captions .off {
 	transition: .2s;
@@ -20,6 +38,28 @@ Feel free to adjust the defaults to your needs.
 .voice1 {
 	font-style: italic;
 }
+
+.voice3 {
+	background: red;
+	padding-left: 10px;
+	padding-right: 10px;
+	color:red;
+	font-weight: 800;
+	font-size: 10rem !important;
+	transform: rotate(-5deg);
+	font-family: sans-serif !important;
+	text-transform: uppercase;
+	animation: fuck 1s; 
+}
+
+@keyframes fuck {
+	10% {
+		font-size: 1rem;}
+		40% {
+			font-size: 10rem;
+		}
+	}
+
 
 /* **********************************************
 The first paragraph, with extended timing for 
@@ -94,3 +134,154 @@ You probably want to change the styling.
 	transition: 0s 3.7s;
 	font-family: "brenner slab";
 }
+
+
+/* **********************************************
+
+Styling van video.
+
+********************************************** */
+
+
+/* **********************************************
+
+audio effects.
+
+********************************************** */
+
+.sound1 {
+
+	transition: 300ms;
+	-webkit-animation: sound1 3s;/* Safari 4.0 - 8.0 */
+	animation: sound1 3s;
+
+}
+
+@keyframes sound1{
+
+		0% {background: black;}
+		20% {
+			background: darkred;}
+	
+}
+
+.sound2 {
+
+	transition: 300ms;
+	-webkit-animation: sound2 3s;
+	/* Safari 4.0 - 8.0 */
+	animation: sound2 3s;
+
+}
+
+@keyframes sound2 {
+
+	0% {
+		background-image: linear-gradient(to bottom right, darkred, black, rgb(61, 192, 249));
+		  background-position: center;
+		  /* Center the image */
+		  background-repeat: no-repeat;
+		  /* Do not repeat the image */
+		  background-size: cover;
+		}
+
+			10% {
+				background-image: linear-gradient(to top left, darkred, black, rgb(61, 192, 249));
+				background-position: center;
+				/* Center the image */
+				background-repeat: no-repeat;
+				/* Do not repeat the image */
+				background-size: cover;
+			}
+
+						20% {
+							background-image: linear-gradient(to bottom left, darkred, black, rgb(61, 192, 249));
+							background-position: center;
+							/* Center the image */
+							background-repeat: no-repeat;
+							/* Do not repeat the image */
+							background-size: cover;
+						}
+		
+									40% {
+										background-color: black;
+										background-position: center;
+										/* Center the image */
+										background-repeat: no-repeat;
+										/* Do not repeat the image */
+										background-size: cover;
+									}
+
+}
+
+
+.sound4 {
+
+	transition: 300ms;
+	-webkit-animation: sound4 1s;
+	/* Safari 4.0 - 8.0 */
+	animation: sound4 1s;
+
+}
+
+@keyframes sound4 {
+
+	0% {
+		background: black;
+	}
+
+	20% {
+		background: orange;
+	}
+
+}
+
+
+
+#video-placeholder {
+}
+
+
+.soundbarcontainer {
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	align-content: flex;
+	position: absolute;
+	align-items: center;
+	justify-content: center;
+	margin: 0px;
+}
+
+.soundbar {
+	height: 800px;
+	width: 20px;
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#bfff00+49,ff0004+100 */
+	background: rgb(191, 255, 0);
+	/* Old browsers */
+	background: -moz-radial-gradient(center, ellipse cover, rgba(191, 255, 0, 1) 49%, rgba(255, 0, 4, 1) 100%);
+	/* FF3.6-15 */
+	background: -webkit-radial-gradient(center, ellipse cover, rgba(191, 255, 0, 1) 49%, rgba(255, 0, 4, 1) 100%);
+	/* Chrome10-25,Safari5.1-6 */
+	background: radial-gradient(ellipse at center, rgba(191, 255, 0, 1) 49%, rgba(255, 0, 4, 1) 100%);
+	/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#bfff00', endColorstr='#ff0004', GradientType=1);
+	/* IE6-9 fallback on horizontal gradient */
+	animation: geluid 136s;
+}
+
+
+@keyframes geluid {
+
+	1% {
+		height: 20px;
+	}
+
+	8% {
+		height: 800px;
+	}
+
+}
+
+
+
