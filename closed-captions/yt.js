@@ -38,9 +38,17 @@ function addSpans(){
 
 function updateTimerDisplay(){
 	var t = player.getCurrentTime();
+
+	var t_ms = Math.floor(t * 1000);
+
+	$('.soundbar').css('height', timestamps[t_ms]);
+
 	t = Math.floor10(t,-1);
 	// for each paragraph we want to know:
 	// (paragraph number, start time, end time, current time)
+
+	// var height = 400 * (Math.sin(t) + 1);
+	// $('.soundbar').css('height', height);
 
 	//Officer K D 6 - 3 . 7. Let’s begin. Ready?
 	var i = 0;

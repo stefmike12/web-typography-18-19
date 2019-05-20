@@ -239,8 +239,16 @@ audio effects.
 
 
 #video-placeholder {
+
 }
 
+#video-placeholderwrapper {
+	padding: 10px 0px;
+	box-shadow: 0px 21px 11px -9px rgba(0, 0, 0, 0.372);
+border-radius: 10px;
+background: black;
+}
+	
 
 .soundbarcontainer {
 	width: 100%;
@@ -254,24 +262,17 @@ audio effects.
 }
 
 .soundbar {
+	border: solid 5px rgba(0, 0, 0, 0.187);
+	border-radius: 5px;
+	margin: 20px;
 	height: 800px;
-	width: 20px;
-	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#bfff00+49,ff0004+100 */
-	background: rgb(191, 255, 0);
-	/* Old browsers */
-	background: -moz-radial-gradient(center, ellipse cover, rgba(191, 255, 0, 1) 49%, rgba(255, 0, 4, 1) 100%);
-	/* FF3.6-15 */
-	background: -webkit-radial-gradient(center, ellipse cover, rgba(191, 255, 0, 1) 49%, rgba(255, 0, 4, 1) 100%);
-	/* Chrome10-25,Safari5.1-6 */
-	background: radial-gradient(ellipse at center, rgba(191, 255, 0, 1) 49%, rgba(255, 0, 4, 1) 100%);
-	/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#bfff00', endColorstr='#ff0004', GradientType=1);
-	/* IE6-9 fallback on horizontal gradient */
-	animation: geluid 136s;
+	width: 50px;
+background-image: linear-gradient(to top, #d16b6b, #dc7751, #d88a33, #c5a110, #a1b900, #a0ba00, #a0bc00, #9fbd00, #c7a700, #e48f14, #f6753c, #fb5f5f);
+	box-shadow: rgba(0, 0, 0, 0.338) 3px 0px 5px 1px;
 }
 
 
-@keyframes geluid {
+/* @keyframes geluid {
 
 	1% {
 		height: 20px;
@@ -281,7 +282,11 @@ audio effects.
 		height: 800px;
 	}
 
+} */
+
+
+
+.sound9 {
+	background-image: url('whitebg.svg');
 }
-
-
 
