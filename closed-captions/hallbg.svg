@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="2954px" height="1920px" viewBox="0 0 2954 1920" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>desktop copy 3</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="30.9631069%" x2="100%" y2="30.9631069%" id="linearGradient-1">
+            <stop stop-color="#EEEEEE" offset="0%"></stop>
+            <stop stop-color="#E8E8E8" offset="3.50067576%"></stop>
+            <stop stop-color="#ECECEC" offset="95.5266125%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#FFFFFF" stop-opacity="0.5" offset="0%"></stop>
+            <stop stop-color="#F7F7F7" stop-opacity="0.0790537587" offset="3.57950107%"></stop>
+            <stop stop-color="#F7F7F7" stop-opacity="0.0930456919" offset="96.6505712%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0.5" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-3" x="0" y="0" width="1044" height="1139"></rect>
+        <rect id="path-4" x="1064" y="-378" width="1044" height="1139"></rect>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="71.9419196%" id="linearGradient-5">
+            <stop stop-color="#FFFFFF" stop-opacity="0.5" offset="0%"></stop>
+            <stop stop-color="#F7F7F7" stop-opacity="0.0790537587" offset="3.57950107%"></stop>
+            <stop stop-color="#F7F7F7" stop-opacity="0.0930456919" offset="96.6505712%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0.5" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-6" x="0" y="1159" width="1044" height="1139"></rect>
+        <rect id="path-7" x="1064" y="781" width="1044" height="1139"></rect>
+        <rect id="path-8" x="2108" y="-10" width="1044" height="1139"></rect>
+        <rect id="path-9" x="2108" y="1149" width="1044" height="1139"></rect>
+    </defs>
+    <g id="desktop-copy-3" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="#E0E0E0" x="0" y="0" width="2954" height="1920"></rect>
+        <rect id="Rectangle" x="805" y="553" width="1345" height="835"></rect>
+        <g id="Rectangle">
+            <use fill="url(#linearGradient-1)" xlink:href="#path-3"></use>
+            <use fill="url(#linearGradient-2)" xlink:href="#path-3"></use>
+        </g>
+        <g id="Rectangle-Copy-2">
+            <use fill="url(#linearGradient-1)" xlink:href="#path-4"></use>
+            <use fill="url(#linearGradient-2)" xlink:href="#path-4"></use>
+        </g>
+        <g id="Rectangle-Copy">
+            <use fill="url(#linearGradient-1)" xlink:href="#path-6"></use>
+            <use fill="url(#linearGradient-5)" xlink:href="#path-6"></use>
+        </g>
+        <g id="Rectangle-Copy-3">
+            <use fill="url(#linearGradient-1)" xlink:href="#path-7"></use>
+            <use fill="url(#linearGradient-2)" xlink:href="#path-7"></use>
+        </g>
+        <g id="Rectangle-Copy-4">
+            <use fill="url(#linearGradient-1)" xlink:href="#path-8"></use>
+            <use fill="url(#linearGradient-2)" xlink:href="#path-8"></use>
+        </g>
+        <g id="Rectangle-Copy-5">
+            <use fill="url(#linearGradient-1)" xlink:href="#path-9"></use>
+            <use fill="url(#linearGradient-2)" xlink:href="#path-9"></use>
+        </g>
+        <rect id="Rectangle" stroke="#979797" fill="#D8D8D8" x="637.5" y="553.5" width="1680" height="961"></rect>
+        <path d="M1.33865355,0.5 L637.186755,552.5 L2317.81302,552.5 L2952.66293,0.5 L1.33865355,0.5 Z" id="Rectangle" stroke="#979797" fill="#D8D8D8"></path>
+        <polygon id="Rectangle" fill="#F2F2F2" points="689.088608 142 1445.5 142 1445.5 437 1028.89873 437"></polygon>
+        <polygon id="Rectangle" fill="#F2F2F2" points="1500 142 2264.91139 142 1925.63472 437 1500 437"></polygon>
+        <polygon id="Rectangle" fill="#000000" transform="translate(1477.000000, 1680.500000) scale(1, -1) translate(-1477.000000, -1680.500000) " points="0 1441 2954 1441 2318 1920 637 1920"></polygon>
+    </g>
+</svg>

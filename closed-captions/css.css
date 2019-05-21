@@ -9,16 +9,19 @@ Feel free to adjust the defaults to your needs.
 body {
 	background-color: black;
 	height: 100vh;
+	width: 100vw;
+	overflow: hidden;
 	margin: 0;
 }
 
 #closed-captions {
+	height: 100vh;
 	align-content: center;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	z-index: 100;
-	height: 100vh
+	align-items: center;
+	z-index: 1;
 }
 
 #closed-captions p {
@@ -29,7 +32,7 @@ body {
 	font-size: 2em;
 }
 #closed-captions .on {
-	opacity: 0.6;
+	opacity: 0.8;
 }
 #closed-captions .off {
 	transition: .2s;
@@ -37,6 +40,11 @@ body {
 }
 .voice1 {
 	font-style: italic;
+	text-align: center;
+}
+
+p {
+	text-align: center;
 }
 
 .voice3 {
@@ -45,8 +53,9 @@ body {
 	padding-right: 10px;
 	color:red;
 	font-weight: 800;
+	height: 10px;
 	font-size: 10rem !important;
-	transform: rotate(-5deg);
+	transform: rotate(0deg);
 	font-family: sans-serif !important;
 	text-transform: uppercase;
 	animation: fuck 1s; 
@@ -69,7 +78,7 @@ The first paragraph, with extended timing for
 	spoken.
 You probably want to change the styling.
 ********************************************** */
-.p0 span {
+/* .p0 span {
 	opacity: 0;
 	font-family: brenner;
 }
@@ -133,8 +142,12 @@ You probably want to change the styling.
 	opacity: 1;
 	transition: 0s 3.7s;
 	font-family: "brenner slab";
-}
+} */
 
+
+.voice1a {
+	font-size: 8rem !important;
+}
 
 /* **********************************************
 
@@ -168,9 +181,9 @@ audio effects.
 .sound2 {
 
 	transition: 300ms;
-	-webkit-animation: sound2 3s;
+	-webkit-animation: sound2 0.3s;
 	/* Safari 4.0 - 8.0 */
-	animation: sound2 3s;
+	animation: sound2 1s;
 
 }
 
@@ -215,6 +228,9 @@ audio effects.
 }
 
 
+
+}
+
 .sound4 {
 
 	transition: 300ms;
@@ -239,6 +255,12 @@ audio effects.
 
 
 #video-placeholder {
+	clip-path: inset(20% 0 19% 0);
+}
+
+
+.soundbarcontainer:hover {
+
 
 }
 
@@ -246,29 +268,34 @@ audio effects.
 	padding: 10px 0px;
 	box-shadow: 0px 21px 11px -9px rgba(0, 0, 0, 0.372);
 border-radius: 10px;
-background: black;
 }
 	
 
 .soundbarcontainer {
+	
 	width: 100%;
 	height: 100vh;
 	display: flex;
-	align-content: flex;
 	position: absolute;
 	align-items: center;
 	justify-content: center;
 	margin: 0px;
 }
 
+.soundbarleft {
+	transform: scaleX(-1) !important;
+}
 .soundbar {
-	border: solid 5px rgba(0, 0, 0, 0.187);
-	border-radius: 5px;
-	margin: 20px;
+clip-path: polygon(0 16%, 100% 0, 100% 84%, 0% 100%);
+/* border: solid 5px rgba(0, 0, 0, 0.187); */
+	border-radius: 0px;
+	border-top: 20px;
+	border-left: 70px;
+	margin: 0px;
 	height: 800px;
-	width: 50px;
-background-image: linear-gradient(to top, #d16b6b, #dc7751, #d88a33, #c5a110, #a1b900, #a0ba00, #a0bc00, #9fbd00, #c7a700, #e48f14, #f6753c, #fb5f5f);
-	box-shadow: rgba(0, 0, 0, 0.338) 3px 0px 5px 1px;
+	width: 200px;
+	/* background-image: linear-gradient(to bottom, #d60000, #cd5300, #bb7b00, #a49b00, #88b600, #88b600, #88b600, #88b600, #a49b00, #bb7b00, #cd5300, #d60000); */
+	background-image: linear-gradient(to right top, #340303, #480a0f, #5d1415, #731f19, #892b1c);
 }
 
 
@@ -290,3 +317,290 @@ background-image: linear-gradient(to top, #d16b6b, #dc7751, #d88a33, #c5a110, #a
 	background-image: url('whitebg.svg');
 }
 
+
+#voice2 {
+	margin-left: 20rem;
+	font-family: "brenner sans";
+	font-weight: 600;
+	font-size: 5rem !important;
+	color: rgb(255, 0, 0) !important;
+}
+
+#voice1 {
+	margin-left: -20rem;
+	margin-top: -10rem;
+	font-family: "brenner sans";
+	font-weight: 600;
+	font-size: 5rem !important;
+	
+}
+
+#voice3 {
+	font-size: 6rem !important;
+		margin-left: 0rem;
+		margin-top: 0rem;
+			font-family: "brenner sans";
+			font-weight: 600;
+
+}
+
+#voice4 {
+	font-size: 9rem !important;
+	margin-left: 0rem;
+	margin-top: 0rem;
+		font-family: "brenner sans";
+		font-weight: 600;
+			background: #d69200c4;
+
+}
+
+#voice5 {
+	font-size: 12rem !important;
+	margin-left: 0rem;
+	padding: ;
+	margin-top: 0rem;
+	text-align: center;
+		font-family: "brenner sans";
+		font-weight: 600;
+	background: #d60000c4;
+
+
+}
+
+.sound3 {
+	animation: shake 0.82s cubic-bezier(.36, .07, .19, .97) both;
+	transform: translate3d(0, 0, 0);
+	perspective: 1000px;
+}
+
+@keyframes shake {
+
+	10%,
+	90% {
+		transform: translate3d(-1px, 0, 0);
+	}
+
+	20%,
+	80% {
+		transform: translate3d(6px, 0, 0);
+	}
+
+	30%,
+	50%,
+	70% {
+		transform: translate3d(-8px, 0, 0);
+	}
+
+	40%,
+	60% {
+		transform: translate3d(9px, 0, 0);
+	}
+}
+
+.sound4 {
+	animation: shake2 0.82s cubic-bezier(.36, .07, .19, .97) both;
+	transform: translate3d(0, 0, 0);
+	perspective: 1000px;
+}
+
+@keyframes shake2 {
+
+	10%,
+	90% {
+		transform: translate3d(-1px, 0, 0);
+		background-color: white;
+	}
+
+	20%,
+	80% {
+		transform: translate3d(6px, 0, 0);
+	}
+
+	30%,
+	50%,
+	70% {
+		transform: translate3d(-8px, 0, 0);
+	}
+
+	40%,
+	60% {
+		transform: translate3d(9px, 0, 0);
+	}
+}
+.sound5 {
+	animation: shake3 0.82s cubic-bezier(.36, .07, .19, .97) both;
+	transform: translate3d(0, 0, 0);
+	perspective: 1000px;
+}
+
+@keyframes shake3 {
+
+	10%,
+	90% {
+		transform: translate3d(-1px, 0, 0);
+	}
+
+	20%,
+	80% {
+		transform: translate3d(6px, 0, 0);
+	}
+
+	30%,
+	50%,
+	70% {
+		transform: translate3d(-8px, 0, 0);
+	}
+
+	40%,
+	60% {
+		transform: translate3d(9px, 0, 0);
+	}
+}
+.sound6 {
+	animation: shake4 0.82s cubic-bezier(.36, .07, .19, .97) both;
+	transform: translate3d(0, 0, 0);
+	perspective: 1000px;
+}
+
+@keyframes shake4 {
+
+	10%,
+	90% {
+		transform: translate3d(-1px, 0, 0);
+	}
+
+	20%,
+	80% {
+		transform: translate3d(6px, 0, 0);
+	}
+
+	30%,
+	50%,
+	70% {
+		transform: translate3d(-8px, 0, 0);
+	}
+
+	40%,
+	60% {
+		transform: translate3d(9px, 0, 0);
+	}
+}
+.sound7 {
+	animation: shake5 0.82s cubic-bezier(.36, .07, .19, .97) both;
+	transform: translate3d(0, 0, 0);
+	perspective: 1000px;
+}
+
+@keyframes shake5 {
+
+	10%,
+	90% {
+		transform: translate3d(-1px, 0, 0);
+	}
+
+	20%,
+	80% {
+		transform: translate3d(6px, 0, 0);
+	}
+
+	30%,
+	50%,
+	70% {
+		transform: translate3d(-8px, 0, 0);
+	}
+
+	40%,
+	60% {
+		transform: translate3d(9px, 0, 0);
+	}
+}
+
+.sound8 {
+	animation: shake6 0.82s cubic-bezier(.36, .07, .19, .97) both;
+	transform: translate3d(0, 0, 0);
+	perspective: 1000px;
+}
+
+@keyframes shake6 {
+
+	10%,
+	90% {
+		transform: translate3d(-1px, 0, 0);
+	}
+
+	20%,
+	80% {
+		transform: translate3d(6px, 0, 0);
+	}
+
+	30%,
+	50%,
+	70% {
+		transform: translate3d(-8px, 0, 0);
+	}
+
+	40%,
+	60% {
+		transform: translate3d(9px, 0, 0);
+	}
+}
+
+.sound9 {
+	animation: shake7 0.82s cubic-bezier(.36, .07, .19, .97) both;
+	transform: translate3d(0, 0, 0);
+	perspective: 1000px;
+}
+
+@keyframes shake7 {
+
+	10%,
+	90% {
+		transform: translate3d(-1px, 0, 0);
+	}
+
+	20%,
+	80% {
+		transform: translate3d(6px, 0, 0);
+	}
+
+	30%,
+	50%,
+	70% {
+		transform: translate3d(-8px, 0, 0);
+	}
+
+	40%,
+	60% {
+		transform: translate3d(9px, 0, 0);
+	}
+}
+
+.sound {
+	animation: shake0 0.82s cubic-bezier(.36, .07, .19, .97) both;
+	transform: translate3d(0, 0, 0);
+	perspective: 1000px;
+}
+
+@keyframes shake0 {
+
+	10%,
+	90% {
+		transform: translate3d(-1px, 0, 0);
+	}
+
+	20%,
+	80% {
+		transform: translate3d(6px, 0, 0);
+	}
+
+	30%,
+	50%,
+	70% {
+		transform: translate3d(-8px, 0, 0);
+	}
+
+	40%,
+	60% {
+		transform: translate3d(9px, 0, 0);
+	}
+}
