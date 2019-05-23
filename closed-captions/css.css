@@ -1242,7 +1242,18 @@ background-size: cover;
 		}
 
 		#video-placeholder {
-		clip-path: inset(32% 0 33% 0);
+		clip-path: inset(33% 0 33% 0);
+		}
+
+		.soundbar {
+				width: 100px;
 		}
 		
+	}
+
+	@media only screen and (max-width: 600px) {
+	.soundbar {
+		width: 50px;
+	}
+
 	}
