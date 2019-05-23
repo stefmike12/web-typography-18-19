@@ -43,6 +43,8 @@ body {
 	text-align: center;
 	font-family: brenner sans;
 	font-weight: 200;
+	
+	background-color: rgba(252, 210, 120, 0.448);
 }
 
 p {
@@ -52,6 +54,8 @@ p {
 .voice2 {
 	font-family: brenner;
 	font-weight: 200;
+	background-color: rgba(252, 120, 120, 0.301);
+	
 }
 
 .voice3 {
