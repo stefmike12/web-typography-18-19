@@ -39,12 +39,19 @@ body {
 	opacity: 0;
 }
 .voice1 {
-	font-style: italic;
+	/* font-style: italic; */
 	text-align: center;
+	font-family: brenner sans;
+	font-weight: 200;
 }
 
 p {
 	text-align: center;
+}
+
+.voice2 {
+	font-family: brenner;
+	font-weight: 200;
 }
 
 .voice3 {
@@ -78,10 +85,219 @@ The first paragraph, with extended timing for
 	spoken.
 You probably want to change the styling.
 ********************************************** */
-/* .p0 span {
+ .p0 span {
+ 	opacity: 0;
+ 	font-family: brenner sans;
+ }
+
+ .p0.on span:first-of-type {
+ 	opacity: 1;
+ 	transition: 0s;
+ 	font-family: brenner sans;
+ 	font-weight: 200;
+ }
+
+ .p0.on span:nth-of-type(2) {
+ 	opacity: 1;
+ 	transition: 0s;
+ 	font-family: brenner sans;
+ 	font-weight: 200;
+ }
+
+ .p0.on span:nth-of-type(3) {
+ 	opacity: 1;
+ 	transition: 0s;
+ 	font-family: brenner sans;
+ 	font-weight: 200;
+ }
+
+ .p0.on span:nth-of-type(4) {
+ 	opacity: 1;
+ 	transition: 0s;
+ 	font-family: brenner sans;
+ 	font-weight: 200;
+ }
+
+ .p0.on span:nth-of-type(5) {
+ 	opacity: 1;
+ 	transition: 0s;
+ 	font-family: brenner sans;
+ 	font-weight: 200;
+ }
+
+ .p0.on span:nth-of-type(6) {
+ 	opacity: 1;
+ 	transition: 0s;
+ 	font-family: brenner sans;
+ 	font-weight: 200;
+ }
+
+ .p0.on span:nth-of-type(7) {
+ 	opacity: 1;
+ 	transition: 0s;
+ 	font-family: brenner sans;
+ 	font-weight: 200;
+ }
+
+ .p0.on span:nth-of-type(8) {
+ 	opacity: 1;
+ 	transition: 0s;
+ 	font-family: brenner sans;
+ 	font-weight: 200;
+ }
+
+ .p0.on span:nth-of-type(9) {
+ 	opacity: 1;
+ 	transition: 0s;
+ 	font-family: brenner sans;
+ 	font-weight: 200;
+ }
+
+ .p0.on span:nth-of-type(10) {
+ 	opacity: 1;
+ 	transition: 0s;
+ 	font-family: brenner sans;
+ 	font-weight: 200;
+ }
+
+ .p0.on span:nth-of-type(11) {
+ 	opacity: 1;
+ 	transition: 0s;
+ 	font-family: brenner sans;
+ 	font-weight: 400;
+ }
+
+.p1 span {
 	opacity: 0;
 	font-family: brenner;
 }
+
+.p1.on span:first-of-type {
+	opacity: 1;
+	font-family: brenner;
+	font-weight: 400;
+}
+
+.p1.on span:nth-of-type(2) {
+	opacity: 1;
+	font-family: brenner;
+	font-weight: 200;
+}
+
+.p2.on span:first-of-type {
+	opacity: 1;
+	font-family: brenner sans;
+	font-weight: 200;
+}
+
+.p2.on span:nth-of-type(2) {
+	opacity: 1;
+	font-family: brenner sans;
+	font-weight: 200;
+}
+
+.p2.on span:nth-of-type(3) {
+	opacity: 1;
+	font-family: brenner sans;
+	font-weight: 200;
+}
+
+.p3 span {
+	opacity: 0;
+	font-family: brenner;
+}
+
+.p3.on span:first-of-type {
+	opacity: 1;
+	font-family: brenner;
+}
+
+.p3.on span:nth-of-type(2) {
+	opacity: 1;
+	font-family: brenner;
+	font-weight: 200;
+	color: rgb(213, 57, 57);
+}
+
+.p3.on span:nth-of-type(3) {
+	opacity: 1;
+	transition: 0s;
+}
+
+.p3.on span:nth-of-type(4) {
+	opacity: 1;
+	transition: 0s;
+}
+
+.p3.on span:nth-of-type(5) {
+	opacity: 1;
+	transition: 0s;
+}
+
+.p3.on span:nth-of-type(6) {
+	opacity: 1;
+	transition: 0s;
+}
+
+.p7 span {
+	opacity: 0;
+}
+
+.p7.on span:first-of-type {
+	opacity: 1;
+}
+
+.p7.on span:nth-of-type(2) {
+	opacity: 1;
+}
+
+.p7.on span:nth-of-type(3) {
+	opacity: 1;
+}
+
+.p7.on span:nth-of-type(4) {
+	opacity: 1;
+	background-color: black;
+}
+
+.p7.on span:nth-of-type(5) {
+	opacity: 1;
+	background-color: black;
+}
+
+.p7.on span:nth-of-type(6) {
+	opacity: 1;
+	background-color: black;
+}
+
+.p7.on span:nth-of-type(7) {
+	opacity: 1;
+	transition: 0s 2s;
+}
+
+.p7.on span:nth-of-type(8) {
+	opacity: 1;
+	transition: 0s 2s;
+}
+
+.p7.on span:nth-of-type(9) {
+	opacity: 1;
+	background-color: white;
+	color: black;
+	transition: 0s 2s;
+}
+
+.p7.on span:nth-of-type(10) {
+	opacity: 1;
+	transition: 0s 2s;
+}
+
+.p7.on span:nth-of-type(11) {
+	opacity: 1;
+	transition: 0s 2s;
+}
+
+/*
 .p0.on span:first-of-type {
 	opacity: 1;
 	transition: 0s;
@@ -149,12 +365,23 @@ You probably want to change the styling.
 	font-size: 8rem !important;
 }
 
+
 /* **********************************************
 
 Styling van video.
 
 ********************************************** */
 
+
+#video-placeholder {
+	clip-path: inset(20% 0 19% 0);
+}
+
+#video-placeholderwrapper {
+	padding: 10px 0px;
+	box-shadow: 0px 21px 11px -9px rgba(0, 0, 0, 0.372);
+	border-radius: 10px;
+}
 
 /* **********************************************
 
@@ -251,24 +478,6 @@ audio effects.
 	}
 
 }
-
-
-
-#video-placeholder {
-	clip-path: inset(20% 0 19% 0);
-}
-
-
-.soundbarcontainer:hover {
-
-
-}
-
-#video-placeholderwrapper {
-	padding: 10px 0px;
-	box-shadow: 0px 21px 11px -9px rgba(0, 0, 0, 0.372);
-border-radius: 10px;
-}
 	
 
 .soundbarcontainer {
@@ -286,7 +495,9 @@ border-radius: 10px;
 	transform: scaleX(-1) !important;
 }
 .soundbar {
-clip-path: polygon(0 16%, 100% 0, 100% 84%, 0% 100%);
+/* clip-path: polygon(0 16%, 100% 0, 100% 84%, 0% 100%); */
+clip-path: polygon(50% 0%, 100% 15%, 100% 85%, 50% 100%, 0 85%, 0 15%);
+
 /* border: solid 5px rgba(0, 0, 0, 0.187); */
 	border-radius: 0px;
 	border-top: 20px;
@@ -310,20 +521,22 @@ clip-path: polygon(0 16%, 100% 0, 100% 84%, 0% 100%);
 	}
 
 } */
+.sound0 {
+background: url('stars.gif') repeat;
+background-size: cover;
+}
 
+.sound8 {
 
-
-.sound9 {
 	background-image: url('whitebg.svg');
 }
 
 
 #voice2 {
 	margin-left: 20rem;
-	font-family: "brenner sans";
+	font-family: "brenner";
 	font-weight: 600;
 	font-size: 5rem !important;
-	color: rgb(255, 0, 0) !important;
 }
 
 #voice1 {
@@ -331,7 +544,7 @@ clip-path: polygon(0 16%, 100% 0, 100% 84%, 0% 100%);
 	margin-top: -10rem;
 	font-family: "brenner sans";
 	font-weight: 600;
-	font-size: 5rem !important;
+	font-size: 3rem !important;
 	
 }
 
@@ -339,7 +552,7 @@ clip-path: polygon(0 16%, 100% 0, 100% 84%, 0% 100%);
 	font-size: 6rem !important;
 		margin-left: 0rem;
 		margin-top: 0rem;
-			font-family: "brenner sans";
+			font-family: "brenner";
 			font-weight: 600;
 
 }
@@ -348,9 +561,13 @@ clip-path: polygon(0 16%, 100% 0, 100% 84%, 0% 100%);
 	font-size: 9rem !important;
 	margin-left: 0rem;
 	margin-top: 0rem;
-		font-family: "brenner sans";
+		font-family: "brenner";
 		font-weight: 600;
-			background: #d69200c4;
+		padding: 0px 80px;
+
+			background: #a42020c4;
+			clip-path: polygon(10% 0, 90% 0, 100% 50%, 90% 100%, 10% 100%, 0 50%);
+
 
 }
 
@@ -360,9 +577,12 @@ clip-path: polygon(0 16%, 100% 0, 100% 84%, 0% 100%);
 	padding: ;
 	margin-top: 0rem;
 	text-align: center;
-		font-family: "brenner sans";
+		font-family: "brenner";
 		font-weight: 600;
-	background: #d60000c4;
+					background: #851f1fc4;
+					clip-path: polygon(10% 0, 90% 0, 100% 50%, 90% 100%, 10% 100%, 0 50%);
+
+
 
 
 }
@@ -604,3 +824,62 @@ clip-path: polygon(0 16%, 100% 0, 100% 84%, 0% 100%);
 		transform: translate3d(9px, 0, 0);
 	}
 }
+
+
+.sound10 {
+	animation: shake10 1.82s cubic-bezier(.36, .07, .19, .97) both;
+	transform: translate3d(0, 0, 0);
+	perspective: 1000px;
+}
+
+@keyframes shake10 {
+
+	10%,
+	90% {
+		transform: translate3d(-1px, 0, 0);
+		background: url('snow.gif') repeat;
+	}
+
+	20%,
+	80% {
+		transform: translate3d(6px, 0, 0);
+	}
+
+	30%,
+	50%,
+	70% {
+		transform: translate3d(-8px, 0, 0);
+		background: url('snow.gif') repeat;
+	}
+
+	40%,
+	60% {
+		transform: translate3d(9px, 0, 0);
+	}
+}
+
+
+@media only screen and (max-width: 1000px) {
+	
+
+		#voice2 {
+			margin-left: 0;
+			font-family: "brenner";
+			font-weight: 600;
+			font-size: 5rem !important;
+		}
+
+		#voice1 {
+			margin-left: 0;
+			margin-top: 0rem;
+			font-family: "brenner sans";
+			font-weight: 600;
+			font-size: 3rem !important;
+
+		}
+
+		#video-placeholder {
+		clip-path: inset(32% 0 33% 0);
+		}
+		
+	}

@@ -6,7 +6,7 @@ sounds = [ 0,
 	24,
 	25.8,
 	31,
-	32, // background change stamp naar wit
+	32.8, // background change stamp naar wit
 	34,
 	86
 ];
