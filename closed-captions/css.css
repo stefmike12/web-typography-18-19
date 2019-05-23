@@ -1026,12 +1026,9 @@ background-size: cover;
 70.5% {
 	transform: translate3d(-10px, 0, 0);
 }
-70.7% {
-	transform: translate3d(10px, 0, 0);
-}
 
 71% {
-	transform: translate3d(-10px, 0, 0);
+	transform: translate3d(10px, 0, 0);
 }
 
 71.5% {
@@ -1043,7 +1040,7 @@ background-size: cover;
 }
 
 72% {
-	transform: translate3d(10px, 0, 0);
+	transform: translate3d(-10px, 0, 0);
 }
 
 72.5% {
@@ -1055,7 +1052,7 @@ background-size: cover;
 }
 
 73% {
-	transform: translate3d(-10px, 0, 0);
+	transform: translate3d(10px, 0, 0);
 }
 
 73.5% {
@@ -1067,38 +1064,26 @@ background-size: cover;
 }
 
 74% {
-	transform: translate3d(10px, 0, 0);
-}
-
-74.5% {
 	transform: translate3d(-10px, 0, 0);
 }
 
-74.7% {
+74.2% {
+	transform: translate3d(-10px, 0, 0);
+}
+
+74.4% {
+	transform: translate3d(10px, 0, 0);
+}
+
+74.6% {
+	transform: translate3d(-10px, 0, 0);
+}
+
+74.8% {
 	transform: translate3d(10px, 0, 0);
 }
 
 75% {
-	transform: translate3d(-10px, 0, 0);
-}
-
-75.2% {
-	transform: translate3d(-10px, 0, 0);
-}
-
-75.4% {
-	transform: translate3d(10px, 0, 0);
-}
-
-75.6% {
-	transform: translate3d(-10px, 0, 0);
-}
-
-75.8% {
-	transform: translate3d(10px, 0, 0);
-}
-
-76% {
 	transform: translate3d(10px, 0, 0);
 }
 
@@ -1193,6 +1178,7 @@ background-size: cover;
 	animation: shake10 1.82s cubic-bezier(.36, .07, .19, .97) both;
 	transform: translate3d(0, 0, 0);
 	perspective: 1000px;
+	animation: shake11 50s;
 }
 
 @keyframes shake10 {
@@ -1221,6 +1207,370 @@ background-size: cover;
 	}
 }
 
+
+@keyframes shake11 {
+
+	1% {
+		transform: translate3d(-1px, 0, 0);
+	}
+
+	2% {
+		transform: translate3d(2px, 0, 0);
+	}
+
+	3% {
+		transform: translate3d(-1px, 0, 0);
+	}
+
+	4% {
+		transform: translate3d(2px, 0, 0);
+	}
+
+	5% {
+		transform: translate3d(-2px, 0, 0);
+	}
+
+	6% {
+		transform: translate3d(3px, 0, 0);
+	}
+
+	7% {
+		transform: translate3d(-2px, 0, 0);
+	}
+
+	8% {
+		transform: translate3d(3px, 0, 0);
+	}
+
+	9% {
+		transform: translate3d(-2px, 0, 0);
+	}
+
+	10% {
+		transform: translate3d(3px, 0, 0);
+	}
+
+	11% {
+		transform: translate3d(-3px, 0, 0);
+	}
+
+	12% {
+		transform: translate3d(3px, 0, 0);
+	}
+
+	13% {
+		transform: translate3d(-3px, 0, 0);
+	}
+
+	14% {
+		transform: translate3d(3px, 0, 0);
+	}
+
+	15% {
+		transform: translate3d(-3px, 0, 0);
+	}
+
+	16% {
+		transform: translate3d(3px, 0, 0);
+	}
+
+	17% {
+		transform: translate3d(-3px, 0, 0);
+	}
+
+	18% {
+		transform: translate3d(3px, 0, 0);
+	}
+
+	19% {
+		transform: translate3d(-3px, 0, 0);
+	}
+
+	20% {
+		transform: translate3d(3px, 0, 0);
+	}
+
+	21% {
+		transform: translate3d(-3px, 0, 0);
+	}
+
+	22% {
+		transform: translate3d(3px, 0, 0);
+	}
+
+	23% {
+		transform: translate3d(-3px, 0, 0);
+	}
+
+	24% {
+		transform: translate3d(3px, 0, 0);
+	}
+
+	25% {
+		transform: translate3d(-3px, 0, 0);
+	}
+
+	26% {
+		transform: translate3d(3px, 0, 0);
+	}
+
+	27% {
+		transform: translate3d(-3px, 0, 0);
+	}
+
+	28% {
+		transform: translate3d(3px, 0, 0);
+	}
+
+	29% {
+		transform: translate3d(-3px, 0, 0);
+	}
+
+	30% {
+		transform: translate3d(4px, 0, 0);
+	}
+
+	31% {
+		transform: translate3d(-4px, 0, 0);
+	}
+
+	32% {
+		transform: translate3d(4px, 0, 0);
+	}
+
+	33% {
+		transform: translate3d(-4px, 0, 0);
+	}
+
+	34% {
+		transform: translate3d(4px, 0, 0);
+	}
+
+	35% {
+		transform: translate3d(-4px, 0, 0);
+	}
+
+	36% {
+		transform: translate3d(4px, 0, 0);
+	}
+
+	37% {
+		transform: translate3d(-4px, 0, 0);
+	}
+
+	38% {
+		transform: translate3d(4px, 0, 0);
+	}
+
+	39% {
+		transform: translate3d(-4px, 0, 0);
+	}
+
+	40% {
+		transform: translate3d(5px, 0, 0);
+	}
+
+	41% {
+		transform: translate3d(-5px, 0, 0);
+	}
+
+	42% {
+		transform: translate3d(5px, 0, 0);
+	}
+
+	43% {
+		transform: translate3d(-5px, 0, 0);
+	}
+
+	44% {
+		transform: translate3d(5px, 0, 0);
+	}
+
+	45% {
+		transform: translate3d(-5px, 0, 0);
+	}
+
+	46% {
+		transform: translate3d(5px, 0, 0);
+	}
+
+	47% {
+		transform: translate3d(-5px, 0, 0);
+	}
+
+	48% {
+		transform: translate3d(5px, 0, 0);
+	}
+
+	49% {
+		transform: translate3d(-5px, 0, 0);
+	}
+
+	50% {
+		transform: translate3d(5px, 0, 0);
+	}
+
+	51% {
+		transform: translate3d(-5px, 0, 0);
+	}
+
+	52% {
+		transform: translate3d(5px, 0, 0);
+	}
+
+	53% {
+		transform: translate3d(-5px, 0, 0);
+	}
+
+	54% {
+		transform: translate3d(5px, 0, 0);
+	}
+
+	55% {
+		transform: translate3d(-5px, 0, 0);
+	}
+
+	56% {
+		transform: translate3d(5px, 0, 0);
+	}
+
+	57% {
+		transform: translate3d(-5px, 0, 0);
+	}
+
+	58% {
+		transform: translate3d(5px, 0, 0);
+	}
+
+	59% {
+		transform: translate3d(-5px, 0, 0);
+	}
+
+	60% {
+		transform: translate3d(6px, 0, 0);
+	}
+
+	61% {
+		transform: translate3d(-6px, 0, 0);
+	}
+
+	62% {
+		transform: translate3d(6px, 0, 0);
+	}
+
+	63% {
+		transform: translate3d(-6px, 0, 0);
+	}
+
+	64% {
+		transform: translate3d(6px, 0, 0);
+	}
+
+	65% {
+		transform: translate3d(-6px, 0, 0);
+	}
+
+	66% {
+		transform: translate3d(6px, 0, 0);
+	}
+
+	67% {
+		transform: translate3d(-6px, 0, 0);
+	}
+
+	68% {
+		transform: translate3d(6px, 0, 0);
+	}
+
+	69% {
+		transform: translate3d(-6px, 0, 0);
+	}
+
+	70% {
+		transform: translate3d(10px, 0, 0);
+	}
+
+	70.5% {
+		transform: translate3d(-10px, 0, 0);
+	}
+
+	70.7% {
+		transform: translate3d(10px, 0, 0);
+	}
+
+	71% {
+		transform: translate3d(-10px, 0, 0);
+	}
+
+	71.5% {
+		transform: translate3d(-10px, 0, 0);
+	}
+
+	71.7% {
+		transform: translate3d(10px, 0, 0);
+	}
+
+	72% {
+		transform: translate3d(10px, 0, 0);
+	}
+
+	72.5% {
+		transform: translate3d(-10px, 0, 0);
+	}
+
+	72.7% {
+		transform: translate3d(10px, 0, 0);
+	}
+
+	73% {
+		transform: translate3d(-10px, 0, 0);
+	}
+
+	73.5% {
+		transform: translate3d(-10px, 0, 0);
+	}
+
+	73.7% {
+		transform: translate3d(10px, 0, 0);
+	}
+
+	74% {
+		transform: translate3d(10px, 0, 0);
+	}
+
+	74.5% {
+		transform: translate3d(-10px, 0, 0);
+	}
+
+	74.7% {
+		transform: translate3d(10px, 0, 0);
+	}
+
+	75% {
+		transform: translate3d(-10px, 0, 0);
+	}
+
+	75.2% {
+		transform: translate3d(-10px, 0, 0);
+	}
+
+	75.4% {
+		transform: translate3d(10px, 0, 0);
+	}
+
+	75.6% {
+		transform: translate3d(-10px, 0, 0);
+	}
+
+	75.8% {
+		transform: translate3d(10px, 0, 0);
+	}
+
+	76% {
+		transform: translate3d(10px, 0, 0);
+	}
+
+}
 
 @media only screen and (max-width: 1000px) {
 	
